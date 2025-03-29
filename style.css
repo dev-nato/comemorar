@@ -34,7 +34,7 @@ body{
 
 
 .imagem{
-    position:absolute;
+    position:fixed;
     justify-content: center;
     display: flex;
     align-items:flex-end;
