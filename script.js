@@ -3,11 +3,12 @@ const idade = dataAtual.getFullYear() - 2001;
 var w = c.width = window.innerWidth,
 		h = c.height = window.innerHeight,
 		ctx = c.getContext( '2d' ),
-		
+
 		hw = w / 2, // half-width
 		hh = h / 2,
+		
 		opts = {
-			strings: [ '¡FELIZ '+idade+' AÑOS!', 'BIA'],
+			strings: [ '¡FELIZ '+idade+' AÑOS!', 'BEATRIZ'],
 			charSize: 20,
 			charSpacing: 25,
 			lineHeight: 30,
@@ -398,6 +399,8 @@ window.addEventListener( 'resize', function(){
 	
 	hw = w / 2;
 	hh = h / 2;
-	
+	opts.charSize = 20;
 	ctx.font = opts.charSize + 'px Comic Neue';
 })
+
+  
