@@ -39,8 +39,8 @@ body{
     display: flex;
     align-items:flex-end;
     z-index: 2;
-    bottom: 5%;
-    right: 43%;
+    top: 5%;
+    right: 50%;
     border-radius: 20px;
     width: 100px;
     max-width: 15%;
@@ -49,7 +49,7 @@ body{
 
 @media (max-width: 768px) {
     .imagem {
-        bottom: 5%;
+        top: 5%;
         width: 80px; /* Reduz largura em telas menores */
     }
 }
