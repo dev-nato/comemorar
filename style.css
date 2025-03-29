@@ -46,3 +46,10 @@ body{
     max-width: 15%;
     transform: translateX(50%);
 }
+
+@media (max-width: 768px) {
+    .imagem {
+        bottom: 5%;
+        width: 80px; /* Reduz largura em telas menores */
+    }
+}
