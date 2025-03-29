@@ -1,6 +1,3 @@
-const dataAtual = new date()
-anoAtual = dataAtual.getFullYear();
-idade = anoAtual - 2001;
 var w = c.width = window.innerWidth,
 		h = c.height = window.innerHeight,
 		ctx = c.getContext( '2d' ),
@@ -8,7 +5,7 @@ var w = c.width = window.innerWidth,
 		hw = w / 2, // half-width
 		hh = h / 2,
 		opts = {
-			strings: [ '¡FELIZ $[idade] AÑOS!', 'BIA'],
+			strings: [ '¡FELIZ 24 AÑOS!', 'BIA'],
 			charSize: 20,
 			charSpacing: 25,
 			lineHeight: 30,
