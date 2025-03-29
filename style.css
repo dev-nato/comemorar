@@ -35,9 +35,14 @@ body{
 
 .imagem{
     position:absolute;
-    justify-self: center;
-    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items:flex-end;
     z-index: 2;
     bottom: 5%;
     right: 43%;
+    border-radius: 20px;
+    width: 100px;
+    max-width: 15%;
+    transform: translateX(50%);
 }
