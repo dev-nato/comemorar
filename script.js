@@ -7,9 +7,9 @@ var w = c.width = window.innerWidth,
 		
 		opts = {
 			strings: [ '¡FELIZ 60 AÑOS!', 'LA MUSCULITAS', 'FISIO CUANDO?'],
-			charSize: 30,
-			charSpacing: 35,
-			lineHeight: 40,
+			charSize: 20,
+			charSpacing: 25,
+			lineHeight: 30,
 			
 			cx: w / 2,
 			cy: h / 2,
