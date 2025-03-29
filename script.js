@@ -398,5 +398,5 @@ window.addEventListener( 'resize', function(){
 	hw = w / 2;
 	hh = h / 2;
 	
-	ctx.font = opts.charSize + 'px Verdana';
+	ctx.font = opts.charSize + 'px Comic Neue';
 })
